@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Cornelia;
+    src: url(assets/fonts/TokyoRockstar.ttf);
+}
+
+@keyframes rightRound {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+
+body {
+    text-align: center;
+    margin: 100px 100px;
+}
+
+h1 {
+    animation: rightRound infinite linear 2s;
+    font-family: Cornelia;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 60px;
+    width: fit-content;
+    padding: 55px 70px;
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: 11px 11px 10px rgba(0, 0, 0, 0.493);
+    background-image: linear-gradient(45deg, yellow, red, gray, green);
+}
+
+.cont{
+    position: absolute;
+    top: 30vw;
+    left: 30vw;
+}
